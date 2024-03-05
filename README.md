@@ -93,6 +93,18 @@ Mutable: we can access multiple things at a time
 Immutable: we can't access multiple things or applications at a time or same time,if we access multiple applications in a same time it will be hanging or deadlock the application. this situation is also called a deadlock condition
 That's why we use a Immutable data structure in these situations.
 
+#DAY_5 
+
+Time complexity is a measure used in computer science to describe the amount of time an algorithm takes to run as a function of the length of its input. It provides an estimate of the maximum time required for an algorithm to complete its execution, usually expressed in Big O notation. This helps in understanding how the algorithm's performance scales with increasing input size.
+
+2)In time complexity why ignore constants :-
+
+In time complexity analysis, constants are ignored because the focus is on understanding how the algorithm's performance scales with input size. Constants represent fixed factors that do not change with the size of the input. Since the goal is to analyze how the algorithm behaves for large inputs, these constant factors become less significant as the input size grows. Ignoring constants allows for a more generalized understanding of the algorithm's efficiency and scalability.
+
+3)why only consider largest component time complexity in a algorithm:-
+
+In time complexity analysis, we typically focus on the largest component because it gives us an upper bound on the runtime behavior of the algorithm. This largest component, often referred to as the dominant term, is the part of the algorithm that grows the fastest as the input size increases. Since we're interested in understanding how the algorithm's performance scales with larger inputs, we focus on this dominant term to get a general understanding of the algorithm's efficiency. Other terms or constants may exist, but they become less significant as the input size grows, so we prioritize the dominant term for simplicity and clarity in analyzing algorithm efficiency
+
 
 
 
